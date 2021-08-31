@@ -47,7 +47,7 @@ function setup(){
 }
 
 function draw(){
-    image(video, 500, 500, 200, 200);
+    image(video, 450, 300, 200, 200);
 }
 
 function take_snapshot(){
