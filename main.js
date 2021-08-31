@@ -47,5 +47,9 @@ function setup(){
 }
 
 function draw(){
-    image(video, 0, 0, 640, 480);
+    image(video, 500, 500, 200, 200);
+}
+
+function take_snapshot(){
+    save('myfilter.png')
 }
